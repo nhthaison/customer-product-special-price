@@ -1,0 +1,17 @@
+{
+    "customer_product_special_price": {
+        "column": {
+            "id": true,
+            "customer_id": true,
+            "product_id": true,
+            "price": true,
+            "start_date": true,
+            "end_date": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "CSTR_PRD_SPECIAL_PRICE_CSTR_ID_CSTR_ENTT_ENTT_ID": true,
+            "CSTR_PRD_SPECIAL_PRICE_PRD_ID_CAT_PRD_ENTT_ENTT_ID": true
+        }
+    }
+}
